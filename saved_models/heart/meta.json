@@ -1,0 +1,117 @@
+{
+  "domain": "heart",
+  "feature_cols": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "target_col": "target",
+  "target_names": [
+    "Healthy / Negative",
+    "Disease Detected / Positive"
+  ],
+  "is_multiclass": false,
+  "sample_ranges": {
+    "age": {
+      "min": 29.0,
+      "max": 77.0,
+      "mean": 54.43894389438944,
+      "median": 56.0,
+      "type": "float"
+    },
+    "sex": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.6798679867986799,
+      "median": 1.0,
+      "type": "float"
+    },
+    "cp": {
+      "min": 1.0,
+      "max": 4.0,
+      "mean": 3.1584158415841586,
+      "median": 3.0,
+      "type": "float"
+    },
+    "trestbps": {
+      "min": 94.0,
+      "max": 200.0,
+      "mean": 131.68976897689768,
+      "median": 130.0,
+      "type": "float"
+    },
+    "chol": {
+      "min": 126.0,
+      "max": 564.0,
+      "mean": 246.69306930693068,
+      "median": 241.0,
+      "type": "float"
+    },
+    "fbs": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1485148514851485,
+      "median": 0.0,
+      "type": "float"
+    },
+    "restecg": {
+      "min": 0.0,
+      "max": 2.0,
+      "mean": 0.9900990099009901,
+      "median": 1.0,
+      "type": "float"
+    },
+    "thalach": {
+      "min": 71.0,
+      "max": 202.0,
+      "mean": 149.6072607260726,
+      "median": 153.0,
+      "type": "float"
+    },
+    "exang": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.32673267326732675,
+      "median": 0.0,
+      "type": "float"
+    },
+    "oldpeak": {
+      "min": 0.0,
+      "max": 6.2,
+      "mean": 1.0396039603960396,
+      "median": 0.8,
+      "type": "float"
+    },
+    "slope": {
+      "min": 1.0,
+      "max": 3.0,
+      "mean": 1.6006600660066006,
+      "median": 2.0,
+      "type": "float"
+    },
+    "ca": {
+      "min": 0.0,
+      "max": 3.0,
+      "mean": 0.6633663366336634,
+      "median": 0.0,
+      "type": "float"
+    },
+    "thal": {
+      "min": 3.0,
+      "max": 7.0,
+      "mean": 4.7227722772277225,
+      "median": 3.0,
+      "type": "float"
+    }
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "domain": "symptoms",
+  "feature_cols": [
+    "age",
+    "temperature",
+    "fever",
+    "high_fever",
+    "cough",
+    "fatigue",
+    "headache",
+    "chills",
+    "muscle_pain",
+    "sore_throat",
+    "shortness_of_breath",
+    "nausea",
+    "vomiting",
+    "diarrhea",
+    "loss_of_taste_smell",
+    "skin_rash",
+    "joint_pain",
+    "runny_nose",
+    "chest_pain",
+    "dizziness",
+    "sweating",
+    "loss_of_appetite"
+  ],
+  "target_col": "disease",
+  "target_names": [
+    "COVID-19",
+    "Common Cold",
+    "Dengue Fever",
+    "Gastroenteritis",
+    "Influenza (Flu)",
+    "Malaria",
+    "Pneumonia",
+    "Typhoid"
+  ],
+  "is_multiclass": true,
+  "sample_ranges": {
+    "age": {
+      "min": 5.0,
+      "max": 85.0,
+      "mean": 38.401666666666664,
+      "median": 37.0,
+      "type": "int"
+    },
+    "temperature": {
+      "min": 97.5,
+      "max": 105.5,
+      "mean": 101.89208333333333,
+      "median": 102.1,
+      "type": "float"
+    },
+    "fever": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4658333333333333,
+      "median": 0.0,
+      "type": "int"
+    },
+    "high_fever": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.48833333333333334,
+      "median": 0.0,
+      "type": "int"
+    },
+    "cough": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.5141666666666667,
+      "median": 1.0,
+      "type": "int"
+    },
+    "fatigue": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.92,
+      "median": 1.0,
+      "type": "int"
+    },
+    "headache": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.7116666666666667,
+      "median": 1.0,
+      "type": "int"
+    },
+    "chills": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.45916666666666667,
+      "median": 0.0,
+      "type": "int"
+    },
+    "muscle_pain": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.5491666666666667,
+      "median": 1.0,
+      "type": "int"
+    },
+    "sore_throat": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.30083333333333334,
+      "median": 0.0,
+      "type": "int"
+    },
+    "shortness_of_breath": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.2733333333333333,
+      "median": 0.0,
+      "type": "int"
+    },
+    "nausea": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.5275,
+      "median": 1.0,
+      "type": "int"
+    },
+    "vomiting": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4091666666666667,
+      "median": 0.0,
+      "type": "int"
+    },
+    "diarrhea": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.29833333333333334,
+      "median": 0.0,
+      "type": "int"
+    },
+    "loss_of_taste_smell": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.15916666666666668,
+      "median": 0.0,
+      "type": "int"
+    },
+    "skin_rash": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.20916666666666667,
+      "median": 0.0,
+      "type": "int"
+    },
+    "joint_pain": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.17583333333333334,
+      "median": 0.0,
+      "type": "int"
+    },
+    "runny_nose": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.17583333333333334,
+      "median": 0.0,
+      "type": "int"
+    },
+    "chest_pain": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.22416666666666665,
+      "median": 0.0,
+      "type": "int"
+    },
+    "dizziness": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1425,
+      "median": 0.0,
+      "type": "int"
+    },
+    "sweating": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.435,
+      "median": 0.0,
+      "type": "int"
+    },
+    "loss_of_appetite": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.545,
+      "median": 1.0,
+      "type": "int"
+    }
+  }
+}

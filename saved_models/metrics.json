@@ -1,0 +1,789 @@
+{
+  "heart": {
+    "SVM": {
+      "accuracy": 0.8525,
+      "precision": 0.864,
+      "recall": 0.8525,
+      "f1_score": 0.8525,
+      "roc_auc": 0.947,
+      "cv_mean": 0.8222,
+      "cv_std": 0.0313,
+      "confusion_matrix": [
+        [
+          26,
+          7
+        ],
+        [
+          2,
+          26
+        ]
+      ],
+      "feature_importances": {}
+    },
+    "Logistic Regression": {
+      "accuracy": 0.8689,
+      "precision": 0.8766,
+      "recall": 0.8689,
+      "f1_score": 0.869,
+      "roc_auc": 0.9513,
+      "cv_mean": 0.8264,
+      "cv_std": 0.0172,
+      "confusion_matrix": [
+        [
+          27,
+          6
+        ],
+        [
+          2,
+          26
+        ]
+      ],
+      "feature_importances": {
+        "age": 0.0195,
+        "sex": 0.1239,
+        "cp": 0.1027,
+        "trestbps": 0.0593,
+        "chol": 0.0407,
+        "fbs": 0.0417,
+        "restecg": 0.0411,
+        "thalach": 0.0659,
+        "exang": 0.0725,
+        "oldpeak": 0.0283,
+        "slope": 0.0669,
+        "ca": 0.2094,
+        "thal": 0.1281
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.8689,
+      "precision": 0.8711,
+      "recall": 0.8689,
+      "f1_score": 0.8691,
+      "roc_auc": 0.9589,
+      "cv_mean": 0.8057,
+      "cv_std": 0.0173,
+      "confusion_matrix": [
+        [
+          28,
+          5
+        ],
+        [
+          3,
+          25
+        ]
+      ],
+      "feature_importances": {
+        "age": 0.0794,
+        "sex": 0.0387,
+        "cp": 0.1296,
+        "trestbps": 0.0715,
+        "chol": 0.0679,
+        "fbs": 0.0084,
+        "restecg": 0.0166,
+        "thalach": 0.1229,
+        "exang": 0.0575,
+        "oldpeak": 0.094,
+        "slope": 0.0463,
+        "ca": 0.1221,
+        "thal": 0.1451
+      }
+    },
+    "XGBoost": {
+      "accuracy": 0.8361,
+      "precision": 0.8519,
+      "recall": 0.8361,
+      "f1_score": 0.8358,
+      "roc_auc": 0.9351,
+      "cv_mean": 0.781,
+      "cv_std": 0.0308,
+      "confusion_matrix": [
+        [
+          25,
+          8
+        ],
+        [
+          2,
+          26
+        ]
+      ],
+      "feature_importances": {
+        "age": 0.04439999908208847,
+        "sex": 0.05689999833703041,
+        "cp": 0.1501999944448471,
+        "trestbps": 0.038600001484155655,
+        "chol": 0.04019999876618385,
+        "fbs": 0.0,
+        "restecg": 0.02979999966919422,
+        "thalach": 0.0364999994635582,
+        "exang": 0.03610000014305115,
+        "oldpeak": 0.05640000104904175,
+        "slope": 0.04899999871850014,
+        "ca": 0.10999999940395355,
+        "thal": 0.3517000079154968
+      }
+    }
+  },
+  "diabetes": {
+    "SVM": {
+      "accuracy": 0.7532,
+      "precision": 0.7468,
+      "recall": 0.7532,
+      "f1_score": 0.7465,
+      "roc_auc": 0.8019,
+      "cv_mean": 0.7703,
+      "cv_std": 0.0159,
+      "confusion_matrix": [
+        [
+          86,
+          14
+        ],
+        [
+          24,
+          30
+        ]
+      ],
+      "feature_importances": {}
+    },
+    "Logistic Regression": {
+      "accuracy": 0.7078,
+      "precision": 0.6989,
+      "recall": 0.7078,
+      "f1_score": 0.7008,
+      "roc_auc": 0.813,
+      "cv_mean": 0.7866,
+      "cv_std": 0.0193,
+      "confusion_matrix": [
+        [
+          82,
+          18
+        ],
+        [
+          27,
+          27
+        ]
+      ],
+      "feature_importances": {
+        "Pregnancies": 0.1364,
+        "Glucose": 0.4271,
+        "BloodPressure": 0.0159,
+        "SkinThickness": 0.0102,
+        "Insulin": 0.0239,
+        "BMI": 0.2488,
+        "DiabetesPedigreeFunction": 0.0843,
+        "Age": 0.0534
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.7403,
+      "precision": 0.7324,
+      "recall": 0.7403,
+      "f1_score": 0.7314,
+      "roc_auc": 0.817,
+      "cv_mean": 0.7687,
+      "cv_std": 0.0257,
+      "confusion_matrix": [
+        [
+          86,
+          14
+        ],
+        [
+          26,
+          28
+        ]
+      ],
+      "feature_importances": {
+        "Pregnancies": 0.0639,
+        "Glucose": 0.3367,
+        "BloodPressure": 0.0558,
+        "SkinThickness": 0.062,
+        "Insulin": 0.0976,
+        "BMI": 0.1729,
+        "DiabetesPedigreeFunction": 0.0975,
+        "Age": 0.1137
+      }
+    },
+    "XGBoost": {
+      "accuracy": 0.7532,
+      "precision": 0.7483,
+      "recall": 0.7532,
+      "f1_score": 0.7496,
+      "roc_auc": 0.8261,
+      "cv_mean": 0.7443,
+      "cv_std": 0.0171,
+      "confusion_matrix": [
+        [
+          84,
+          16
+        ],
+        [
+          22,
+          32
+        ]
+      ],
+      "feature_importances": {
+        "Pregnancies": 0.08500000089406967,
+        "Glucose": 0.31290000677108765,
+        "BloodPressure": 0.07400000095367432,
+        "SkinThickness": 0.06480000168085098,
+        "Insulin": 0.09920000284910202,
+        "BMI": 0.1501999944448471,
+        "DiabetesPedigreeFunction": 0.09070000052452087,
+        "Age": 0.12319999933242798
+      }
+    }
+  },
+  "breast_cancer": {
+    "SVM": {
+      "accuracy": 0.9649,
+      "precision": 0.9652,
+      "recall": 0.9649,
+      "f1_score": 0.9647,
+      "roc_auc": 0.9831,
+      "cv_mean": 0.9363,
+      "cv_std": 0.0176,
+      "confusion_matrix": [
+        [
+          71,
+          1
+        ],
+        [
+          3,
+          39
+        ]
+      ],
+      "feature_importances": {}
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9298,
+      "precision": 0.9311,
+      "recall": 0.9298,
+      "f1_score": 0.9301,
+      "roc_auc": 0.9841,
+      "cv_mean": 0.9363,
+      "cv_std": 0.0128,
+      "confusion_matrix": [
+        [
+          67,
+          5
+        ],
+        [
+          3,
+          39
+        ]
+      ],
+      "feature_importances": {
+        "mean radius": 0.1108,
+        "mean texture": 0.1569,
+        "mean perimeter": 0.0973,
+        "mean area": 0.1285,
+        "mean smoothness": 0.1205,
+        "mean compactness": 0.0295,
+        "mean concavity": 0.0927,
+        "mean concave points": 0.1751,
+        "mean symmetry": 0.0454,
+        "mean fractal dimension": 0.0434
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.9386,
+      "precision": 0.9384,
+      "recall": 0.9386,
+      "f1_score": 0.9384,
+      "roc_auc": 0.9835,
+      "cv_mean": 0.9429,
+      "cv_std": 0.0162,
+      "confusion_matrix": [
+        [
+          69,
+          3
+        ],
+        [
+          4,
+          38
+        ]
+      ],
+      "feature_importances": {
+        "mean radius": 0.1324,
+        "mean texture": 0.0515,
+        "mean perimeter": 0.1556,
+        "mean area": 0.1503,
+        "mean smoothness": 0.027,
+        "mean compactness": 0.0514,
+        "mean concavity": 0.1149,
+        "mean concave points": 0.2872,
+        "mean symmetry": 0.0183,
+        "mean fractal dimension": 0.0115
+      }
+    },
+    "XGBoost": {
+      "accuracy": 0.9474,
+      "precision": 0.9474,
+      "recall": 0.9474,
+      "f1_score": 0.9474,
+      "roc_auc": 0.9755,
+      "cv_mean": 0.9429,
+      "cv_std": 0.0082,
+      "confusion_matrix": [
+        [
+          69,
+          3
+        ],
+        [
+          3,
+          39
+        ]
+      ],
+      "feature_importances": {
+        "mean radius": 0.09459999948740005,
+        "mean texture": 0.057500001043081284,
+        "mean perimeter": 0.06639999896287918,
+        "mean area": 0.12729999423027039,
+        "mean smoothness": 0.043299999088048935,
+        "mean compactness": 0.027499999850988388,
+        "mean concavity": 0.029999999329447746,
+        "mean concave points": 0.5284000039100647,
+        "mean symmetry": 0.012400000356137753,
+        "mean fractal dimension": 0.012500000186264515
+      }
+    }
+  },
+  "symptoms": {
+    "SVM": {
+      "accuracy": 0.9667,
+      "precision": 0.9669,
+      "recall": 0.9667,
+      "f1_score": 0.9667,
+      "roc_auc": 0.9992,
+      "cv_mean": 0.9698,
+      "cv_std": 0.0077,
+      "confusion_matrix": [
+        [
+          29,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          29,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          29,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          28,
+          1,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          28,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          29
+        ]
+      ],
+      "feature_importances": {}
+    },
+    "Logistic Regression": {
+      "accuracy": 0.9625,
+      "precision": 0.9636,
+      "recall": 0.9625,
+      "f1_score": 0.9626,
+      "roc_auc": 0.9987,
+      "cv_mean": 0.9646,
+      "cv_std": 0.0163,
+      "confusion_matrix": [
+        [
+          28,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        [
+          1,
+          28,
+          0,
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          29,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          29,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          28,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0,
+          29
+        ]
+      ],
+      "feature_importances": {
+        "age": 0.0123,
+        "temperature": 0.0782,
+        "fever": 0.0498,
+        "high_fever": 0.0579,
+        "cough": 0.0535,
+        "fatigue": 0.0128,
+        "headache": 0.0364,
+        "chills": 0.0783,
+        "muscle_pain": 0.0528,
+        "sore_throat": 0.0448,
+        "shortness_of_breath": 0.0494,
+        "nausea": 0.0631,
+        "vomiting": 0.0488,
+        "diarrhea": 0.0445,
+        "loss_of_taste_smell": 0.0381,
+        "skin_rash": 0.0409,
+        "joint_pain": 0.0411,
+        "runny_nose": 0.0285,
+        "chest_pain": 0.0345,
+        "dizziness": 0.0154,
+        "sweating": 0.0818,
+        "loss_of_appetite": 0.0373
+      }
+    },
+    "Random Forest": {
+      "accuracy": 0.9667,
+      "precision": 0.9682,
+      "recall": 0.9667,
+      "f1_score": 0.9666,
+      "roc_auc": 0.999,
+      "cv_mean": 0.9802,
+      "cv_std": 0.0101,
+      "confusion_matrix": [
+        [
+          29,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          29,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
+        [
+          3,
+          0,
+          0,
+          0,
+          0,
+          0,
+          27,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          1,
+          0,
+          27
+        ]
+      ],
+      "feature_importances": {
+        "age": 0.0092,
+        "temperature": 0.1325,
+        "fever": 0.0459,
+        "high_fever": 0.0646,
+        "cough": 0.0644,
+        "fatigue": 0.0012,
+        "headache": 0.0086,
+        "chills": 0.0807,
+        "muscle_pain": 0.0364,
+        "sore_throat": 0.0252,
+        "shortness_of_breath": 0.0651,
+        "nausea": 0.0533,
+        "vomiting": 0.0407,
+        "diarrhea": 0.0535,
+        "loss_of_taste_smell": 0.059,
+        "skin_rash": 0.0363,
+        "joint_pain": 0.0453,
+        "runny_nose": 0.045,
+        "chest_pain": 0.0301,
+        "dizziness": 0.0083,
+        "sweating": 0.0716,
+        "loss_of_appetite": 0.0231
+      }
+    },
+    "XGBoost": {
+      "accuracy": 0.9625,
+      "precision": 0.9632,
+      "recall": 0.9625,
+      "f1_score": 0.9626,
+      "roc_auc": 0.9986,
+      "cv_mean": 0.9604,
+      "cv_std": 0.0142,
+      "confusion_matrix": [
+        [
+          29,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          28,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          30,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          29,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          29,
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          30,
+          0,
+          0
+        ],
+        [
+          2,
+          0,
+          0,
+          0,
+          0,
+          0,
+          28,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          0,
+          28
+        ]
+      ],
+      "feature_importances": {
+        "age": 0.002199999988079071,
+        "temperature": 0.03200000151991844,
+        "fever": 0.01269999984651804,
+        "high_fever": 0.04039999842643738,
+        "cough": 0.022700000554323196,
+        "fatigue": 0.0,
+        "headache": 0.005200000014156103,
+        "chills": 0.04729999974370003,
+        "muscle_pain": 0.008700000122189522,
+        "sore_throat": 0.013299999758601189,
+        "shortness_of_breath": 0.021900000050663948,
+        "nausea": 0.02710000053048134,
+        "vomiting": 0.03060000017285347,
+        "diarrhea": 0.09539999812841415,
+        "loss_of_taste_smell": 0.17790000140666962,
+        "skin_rash": 0.03720000013709068,
+        "joint_pain": 0.15129999816417694,
+        "runny_nose": 0.08699999749660492,
+        "chest_pain": 0.12240000069141388,
+        "dizziness": 0.032999999821186066,
+        "sweating": 0.02280000038444996,
+        "loss_of_appetite": 0.008799999952316284
+      }
+    }
+  }
+}
